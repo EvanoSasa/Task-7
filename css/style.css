@@ -1,0 +1,844 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+                    /* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Rubik",Arial, Helvetica, sans-serif;
+}
+
+                    /* Nav-bar & Header */
+
+                        /* Nav-bar */
+.nav-head-bg{
+    width: 100vw;
+    height: 110vh;
+    padding-top: 50px;
+    background-image: url(/images/blue_bg.png);
+    background-size: cover;
+}
+nav{
+    width: 80%;
+    height: 10vh;
+    margin:  auto;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between; 
+}
+.nav-left{
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.logo{
+    width:60px;
+
+}
+.nav-ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li a{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #000;
+}
+.nav-right{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+} 
+.nav-btn{
+    padding: 5% 15%;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.7vw;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+}
+                        /* Header */
+header{
+    width: 80%;
+    height: 80vh;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-content{
+    width: 46%;
+    height: 100%;
+}
+.header-content h2{
+    font-size: 3vw;
+    font-weight: 500;
+    margin-top: 35%;
+    margin-bottom: 20px;
+    word-spacing: 3px;
+}
+.header-content span{
+    color: rgb(103, 8, 192);
+}
+.header-content p{
+    font-size: 2.15vw;
+    line-height: 125%;
+}
+.header-photo{
+    position: relative;
+    top: 0;
+    width: 55%;
+    max-height: 77vw;
+}
+.bg-photo{
+    width: 95%;
+    margin-right: auto;
+    position: absolute;
+    right: 0;
+}
+.garcon{
+    width: 39%;
+    position: absolute;
+    left: 30%;
+}
+.clouds{
+    width: 60%;
+    position: absolute;
+    top: 0;
+    left: 20%;
+    padding-top: 55%;
+}
+.waves-container{
+    width: 100%;
+    margin-top: 34%;
+    margin-left: -20%;
+}
+.waves{
+    width: 100%;
+}
+
+
+                    /* Station_2 "Why choose kudzoka" */
+
+
+.second_section{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    position: relative;
+}
+.way{
+    width: 100%;
+    height: 100%;
+    padding-left: 12%;
+}
+.way img{
+    display: inline-block;
+    width: 100%;
+    height: 75%; 
+}
+.station{
+    text-align: center;
+}
+.station img{
+    width: 45%;
+}
+.station h4{
+    margin: 1vw 0;
+    font-size: 1.7vw;
+    font-weight: 500;
+}
+.station p{
+    font-weight: 100;
+}
+.delivery{
+    position: absolute;
+    top:10%;
+    left: 0%;
+}
+.tracking{
+    position: absolute;
+    top: 35%;
+    left: 37%;
+}
+.discounts{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+.why_kudzoka{
+    position: absolute;
+    bottom: -5%;
+    left: 0%;
+    width: 280px;
+    height: 240px;
+    background-image: url(/images/why_kudzoka_bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 80px 60px;
+    text-align: left; 
+}
+.station h5{
+    font-weight: normal;
+    color: #fff;
+    font-size: 17px;
+}
+.station h2{
+    font-weight: normal;
+    color: #fff;
+    font-size: 35px;
+}
+
+
+                    /* Station_3 "Round the clock Support" */
+
+.third-section{
+    width: 70%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-img,
+.right-img{
+    width: 20%;
+}
+.left-img img,
+.right-img img{
+    width: 100%;
+
+}
+.middle{
+    width: 40%;
+}
+
+.middle img{
+    width: 100%;
+}
+.middle h4{
+    margin-top: -20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.middle p{
+    text-align: center;
+}
+.greater-than,
+.less-than{
+    font-size: 25px;
+    margin: 0 10px;
+    margin-top: 20%;
+}
+
+                        /* Footer */
+
+footer{
+    margin: 0;
+    width: 100vw;
+    height: 70vh;
+    background-image: url(/images/footer-bg.png);
+    background-size: 100% 100%;
+    display: flex;
+}
+.left-footer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+.footer-data{
+    width: 80%;
+    height: 9%;
+    margin-left: auto;
+    display: flex;
+    margin-bottom: 2vh;
+}
+.apple,
+.play{
+    width: 20%;
+    height: 100%;
+    margin-right: 1vw;
+} 
+.apple-btn,
+.play-btn{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 30%;
+    font-size: 1.2vw;
+    color: #000;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apple img,
+.play img {
+    width: 1.3vw;
+ }
+.footer-icon{
+    font-size: 2vw;
+    padding-top: 10px;
+    padding-right: 1vw;
+    color: #fff;
+}
+.footer-ul{
+    list-style: none;
+    margin-left: -.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-ul li{
+    padding: .3vw;
+    padding-top: 0;
+    margin-right: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-ul a{
+    padding: .3vw ;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: #fff;
+    border-radius: 5px;
+}
+.right-footer{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.right-footer img{
+    width: 85%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+                   
+                    /* Nav-bar & Header */
+    .logo{
+        width:15vw;
+    }
+    .nav-ul{
+        display: none;
+    }
+    .nav-btn{
+        width: 25vw;
+    }
+    .nav-btn{
+        padding: 10% 15%;
+        font-size: 3vw;
+    }
+    header{
+        height: 105%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: start;
+    }
+    .header-photo{
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 120%;
+    }
+    .clouds{
+        width: 50%;
+        position: absolute;
+        top: 0;
+        left: 25%;
+        padding-top: 55%;
+    }
+    .header-content{
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 20%;
+    }
+    .header-content h2{
+        width: 100%;
+        margin-top: 0;
+        font-size: 6.5vw;
+        margin-bottom: 1vh;
+    }
+    .header-content span{
+        color: rgb(103, 8, 192);
+    }
+    
+    .header-content p{
+        font-size: 3.5vw;
+        line-height: 125%;
+    }
+    .nav-head-bg{
+        height: 110%;
+    }
+    .waves-container{
+        width: 100vw;
+        margin-top: 100%;
+    }
+    
+                /* Station_2 "Why choose kudzoka" */
+
+    .ya-m3azbny{
+        width: 100%;
+        height: 165vh;
+        margin: 10vh auto;
+    }
+    .second_section{
+        width: 80vw;
+        height: 100%;
+        margin: auto;
+        padding: 0;
+        position: relative;
+    }
+    .way img{
+        visibility: hidden;
+    }
+    .station{
+        text-align: center;
+        width: 85%;
+        height: 24%;
+    }
+    .station img{
+            width: 40%;
+    }
+    .discounts img{
+            width: 45%;
+            margin-bottom: 1vh;
+
+    }
+    .station h4{
+        margin: 10px 0 5px;
+        font-size: 3vw;
+    }
+    .station p{
+        font-size: 2.5vw;
+        line-height: 130%;
+        
+    } 
+    .delivery{
+        position: absolute;
+        top: 25%;
+        left: 6vw;
+    }
+    .tracking{
+        position: absolute;
+        top: 50%;
+        left: 6vw;
+    }
+    .discounts{
+        position: absolute;
+        top: 75%;
+        left: 6vw;
+    }
+    .why_kudzoka{
+        position: absolute;
+        top: 0%;
+        background-image: url(/images/why_kudzoka_bg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 22%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .KUD-content{
+        width: 30vw;
+        text-align: left;
+        padding-left: 3%;
+    }
+    .station h5{
+        font-weight: normal;
+        color: #fff;
+        font-size: 3vw;
+    }
+    .station h2{
+        font-weight: normal;
+        color: #fff;
+        font-size: 5.5vw;
+    }
+    
+
+                    /* Station_3 "Round the clock Support" */
+
+    .third-section{
+        position: relative;
+        width: 80%;
+        height: 55vmin;
+        margin: auto;
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-img,
+    .right-img{
+        width: 20%;
+    }
+    .left-img img,
+    .right-img img{
+        width: 100%;
+        opacity: .7;
+    }
+    .middle{
+        width: 55%;
+    }
+    .middle-img{
+        width: 100%;
+    }
+    .middle-img img{
+        width: 100%;
+    }
+    .middle-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .middle h4{
+        font-size: 2.5vw;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .middle p{
+        font-size: 2.25vw;
+        text-align: center;
+    }
+    .greater-than,
+    .less-than{
+        font-size: 3.5vw;
+        margin: 3vw;
+        transform: rotate(90deg);
+    }
+
+
+
+    
+                    /* Footer */
+    footer{
+        height: 35vh;
+    }
+    .footer-data{
+        margin-bottom: 1vw;
+    }
+
+}
+  
+
+  
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width:601px) and (max-width:768px) {
+                
+                    /* Nav-bar & Header */
+
+    .logo{
+        width:13vw;
+    }
+    .nav-ul{
+        display: none;
+    }
+    .nav-btn{
+        width: 20vw;
+    }
+    .nav-btn{
+        padding: 7% 12%;
+        font-size: 2.5vw;
+    }
+    header{
+        margin-top: 5vh;
+    }
+    .nav-head-bg{
+        height: 100%;
+    }
+    .waves-container{
+        width: 100vw;
+        margin-left: -15%;
+        margin-top: 45%;
+    }
+
+                    /* Station_2 "Why choose kudzoka" */
+
+    .ya-m3azbny{
+        width: 100%;
+        height: 165vh;
+        margin: 10vh auto;
+    }
+    .second_section{
+        width: 80vw;
+        height: 100%;
+        margin: auto;
+        padding: 0;
+        position: relative;
+    }
+    .way img{
+        visibility: hidden;
+    }
+    .station{
+        text-align: center;
+        width: 85%;
+        height: 24%;
+    }
+    .station h4{
+        margin: 10px 0 5px;
+        font-size: 3vw;
+    }
+    .station p{
+        font-size: 2.5vw;
+        line-height: 130%;
+    }  
+    .delivery{
+        position: absolute;
+        top: 25%;
+        left: 6vw;
+    }
+    .tracking{
+        position: absolute;
+        top: 50%;
+        left: 6vw;
+    }
+    .discounts{
+        position: absolute;
+        top: 75%;
+        left: 6vw;
+    }   
+    .why_kudzoka{
+        position: absolute;
+        top: 0%;
+        background-position: center;
+        width: 100%;
+        height: 22%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+    .KUD-content{
+        width: 30vw;
+        text-align: left;
+        padding-left: 3%;
+    }
+
+                    /* Station_3 "Round the clock Support" */
+
+    .third-section{
+        position: relative;
+        width: 80%;
+        height: 55vmin;
+        margin: auto;
+        margin-top: 25vh;
+        margin-bottom: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-img img,
+    .right-img img{
+        opacity: .7;
+    }
+    .middle{
+        width: 55%;
+    }
+    .middle-img{
+        width: 100%;
+    }
+    .middle-img img{
+        width: 100%;
+    }
+    .middle-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .greater-than,
+    .less-than{
+        font-size: 3.5vw;
+        margin: 3vw;
+        transform: rotate(90deg);
+    }
+   
+                        /* Footer */
+    footer{
+        height: 40vh;
+    }
+    .footer-data{
+        margin-bottom: 1vw;
+    }
+
+
+} 
+  
+
+
+  /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width:769px) and (max-width: 992px) {
+    
+                    /* Nav-bar & Header */
+    .nav-btn{
+        width: 13vw;
+    }
+    .nav-btn{
+        padding: 7% 10%;
+        font-size: 2.3vw;
+    }
+    .nav-ul li{
+        padding-left: 1vw;
+    }
+    header{
+        margin-top: 7.5vh;
+    }
+    .header-content h2{
+        margin-top: 15vh;
+        font-size: 3vw;
+    }
+    .header-content p{
+        font-size: 2vw;
+        line-height: 125%;
+    }
+    .nav-head-bg{
+        height: 100%;
+    }
+    .waves-container{
+        margin: 0;
+        margin-top: 42%;
+        margin-left: -15%;
+    }
+
+                    /* Station_2 "Why choose kudzoka" */
+
+    .second_section{
+        margin-top: 10vh;
+        height: 87vh;
+        padding-left: 7%;
+        padding-right: 3%;
+    }
+    .way img{
+        width: 100%;
+        height: 72%;
+    }
+    .station h4{
+        margin-top: 3vh 0;
+        font-size: 2.2vw;
+    }
+    .delivery{
+        top: 12%;
+    }
+    .tracking{
+        top: 33%;
+    }
+    .discounts{
+        right: -5%;
+    }
+
+                /* Station_3 "Round the clock Support" */
+
+                /* Footer */
+    footer{
+        height: 50vh;
+    }
+
+} 
+
+
+
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+                        /* Nav-bar & Header */
+    .nav-btn{
+        width: 10vw;
+    }
+    .nav-btn{
+        padding: 5% 10%;
+        font-size: 2vw;
+    }
+    .nav-ul li{
+        padding-left: 1vw;
+    }
+    header{
+        margin-top: 5vh;
+        height: 105%;
+        display: flex;
+    }
+    .header-content h2{
+        margin-top: 15vh;
+        font-size: 3vw;
+    }
+    .header-content p{
+        font-size: 2vw;
+        line-height: 125%;
+    }
+    .nav-head-bg{
+        height: 100%;
+    }
+    .waves-container{
+        margin: 0;
+        margin-top: 40%;
+        margin-left: -17%;
+    }
+
+                    /* Station_2 "Why choose kudzoka" */
+
+    .second_section{
+        height: 90vh;
+    }
+    .way img{
+        width: 100%;
+        height: 70%;
+    }
+    .station h4{
+        margin-top: 3vh 0;
+        font-size: 2vw;
+        }
+    .tracking{
+        top: 33%;
+        left: 37%;
+    }
+    .discounts{
+        right: -5%;
+    }
+
+                    /* Station_3 "Round the clock Support" */
+
+                    /* Footer */
+
+    footer{
+        height: 60vh;
+    }
+}
